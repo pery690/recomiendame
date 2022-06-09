@@ -1,0 +1,515 @@
+@media (min-width: 1100px){
+	*{
+	font-family: segoe ui;
+	padding: 2px 2px;
+	margin: 0;
+}
+body{    
+	background: url(background.jpg)
+	fixed no-repeat top;
+    background-attachment: fixed;
+    -o-background-size: 100% 100%, auto;
+    -moz-background-size: 100% 100%, auto;
+    -webkit-background-size: 100% 100%, auto;
+    background-size: 100% 100%, auto;
+}
+
+/*ENCABEZADO*/
+.header{
+	display: grid;
+	grid-template-columns: 10% auto 10%;
+	text-align: center;
+}
+
+.home{
+	color: black;
+}
+
+.titulo{
+	font-size: 60px;
+}
+
+.user{
+	color: black;
+}
+
+/*CONTENEDOR GENERAL*/
+.contenedor{
+	width: 90%;
+	margin: auto;
+	padding-bottom: 20px;
+	border-radius: 15px;
+
+}
+.contenedor2{
+	width: 90%;
+	margin: auto;
+	padding-bottom: 20px;
+	border-radius: 15px;
+
+}
+
+.contenedor2 h2{
+	text-align: center;
+	font-size: 40px;
+}
+/*FORMULARIO*/
+
+form{
+	text-align: center;
+}
+form label{
+	font-size: 20px;
+}
+form input, form select{
+	font-size: 15px;
+	width: 30%;
+}
+
+.btn{
+	width: 10%;
+}
+/*CONTENEDOR*/
+.container{
+	display: grid;
+	grid-template-columns: auto auto auto auto;
+	grid-gap: 3em;
+}
+
+.peliculas{
+	width: 300px;
+	height: 200px;
+	transition: all .2s ease;
+}
+.peliculas:hover{
+
+	width: 350px;
+	height: 250px;
+}
+
+.peliculas img{
+	width: 100%;
+	height: 100%;
+	border: 1px solid black;
+	border-radius: 10px;
+}
+
+.series{
+	width: 300px;
+	height: 200px;
+	transition: all .2s ease;
+}
+.series:hover{
+	width: 350px;
+	height: 250px;
+}
+
+.series img{
+	width: 100%;
+	height: 100%;
+	border: 1px solid black;
+	border-radius: 10px;
+}
+
+.animes{
+	width: 300px;
+	height: 200px;
+	transition: all .2s ease;
+}
+.animes:hover{
+	width: 350px;
+	height: 250px;
+}
+
+.animes img{
+	width: 100%;
+	height: 100%;
+	border: 1px solid black;
+	border-radius: 10px;
+}
+
+.musica{
+	width: 300px;
+	height: 200px;
+	transition: all .2s ease;
+}
+.musica:hover{
+	width: 350px;
+	height: 250px;
+}
+
+.musica img{
+	width: 100%;
+	height: 100%;
+	border: 1px solid black;
+	border-radius: 10px;
+}
+
+.videojuegos{
+	width: 300px;
+	height: 200px;
+	transition: all .2s ease;
+}
+.videojuegos:hover{
+	width: 350px;
+	height: 250px;
+}
+.videojuegos img{
+	width: 100%;
+	height: 100%;
+	border: 1px solid black;
+	border-radius: 10px;
+}
+
+.mangas{
+	width: 300px;
+	height: 200px;
+	transition: all .2s ease;
+}
+.mangas:hover{
+	width: 350px;
+	height: 250px;
+}
+
+.mangas img{
+	width: 100%;
+	height: 100%;
+	border: 1px solid black;
+	border-radius: 10px;
+}
+
+.libros{
+	width: 300px;
+	height: 200px;
+	transition: all .2s ease;
+}
+.libros:hover{
+	width: 350px;
+	height: 250px;
+}
+
+.libros img{
+	width: 100%;
+	height: 100%;
+	border: 1px solid black;
+	border-radius: 10px;
+}
+
+.programas{
+	width: 300px;
+	height: 200px;
+	transition: all .2s ease;
+}
+.programas:hover{
+	width: 350px;
+	height: 250px;
+}
+
+.programas img{
+	width: 100%;
+	height: 100%;
+	border: 1px solid black;
+	border-radius: 10px;
+}
+
+
+
+/*PIE DE PAGINA*/
+
+.footer{
+	background-color: #c2c2c2;
+	text-align: center;
+	padding: 10px 0;
+	margin: auto;
+	border-radius: 15px;
+	border: 1px solid black;
+	width: 90%;
+}
+
+.boton{
+	border: 1px solid black;
+	width: 10%;
+	padding: 0 10px;
+	border-radius: 15px;
+	background-color: white;
+}
+.boton:hover{
+	background-color: gray;
+}
+.boton a{
+	text-decoration: none;
+	color: black;
+	font-size: 20px;
+	margin: auto;
+}
+
+.contenedor3{
+	margin: auto;
+	width: 90%;
+	text-align: center;
+	font-size: 60px;
+}
+}
+
+
+
+
+@media only screen and (max-width: 1099px ) {
+
+	*{
+	font-family: segoe ui;
+	padding: 2px 2px;
+	margin: 0;
+}
+body{    
+	background: url(background.jpg)
+	fixed no-repeat top;
+    background-attachment: fixed;
+    -o-background-size: 100% 100%, auto;
+    -moz-background-size: 100% 100%, auto;
+    -webkit-background-size: 100% 100%, auto;
+    background-size: 100% 100%, auto;
+}
+
+/*ENCABEZADO*/
+.header{
+	display: grid;
+	grid-template-columns: 10% auto 10%;
+	text-align: center;
+}
+
+.home{
+	color: black;
+}
+
+.titulo{
+	font-size: 60px;
+	margin: auto;
+}
+
+.user{
+	color: black;
+}
+
+/*CONTENEDOR GENERAL*/
+.contenedor{
+	width: 90%;
+	margin: auto;
+	padding-bottom: 20px;
+	border-radius: 15px;
+}
+/*FORMULARIO*/
+
+form{
+	text-align: center;
+}
+form label{
+	font-size: 30px;
+}
+form input, form select{
+	font-size: 25px;
+}
+.btn{
+	width: 10%;
+}
+/*CONTENEDOR*/
+.container{
+	display: grid;
+	grid-template-columns: auto;
+	grid-gap: 3em;
+}
+
+.peliculas{
+	width: 60%;
+	height: 100%;
+	transition: all .2s ease;
+	margin: auto;
+}
+.peliculas:hover{
+
+	width: 70%;
+	height: 100%;
+}
+
+.peliculas img{
+	width: 100%;
+	height: 100%;
+	border: 1px solid black;
+	border-radius: 10px;
+}
+
+.series{
+	width: 60%;
+	height: 100%;
+	transition: all .2s ease;
+	margin: auto;
+}
+.series:hover{
+	width: 70%;
+	height: 100%;
+}
+
+.series img{
+	width: 100%;
+	height: 100%;
+	border: 1px solid black;
+	border-radius: 10px;
+}
+
+.animes{
+	width: 60%;
+	height: 100%;
+	transition: all .2s ease;
+	margin: auto;
+}
+.animes:hover{
+	width: 70%;
+	height: 100%;
+}
+
+.animes img{
+	width: 100%;
+	height: 100%;
+	border: 1px solid black;
+	border-radius: 10px;
+}
+
+.musica{
+	width: 60%;
+	height: 100%;
+	transition: all .2s ease;
+	margin: auto;
+}
+.musica:hover{
+	width: 70%;
+	height: 100%;
+}
+
+.musica img{
+	width: 100%;
+	height: 100%;
+	border: 1px solid black;
+	border-radius: 10px;
+}
+
+.videojuegos{
+	width: 60%;
+	height: 100%;
+	transition: all .2s ease;
+	margin: auto;
+}
+.videojuegos:hover{
+	width: 70%;
+	height: 100%;
+}
+.videojuegos img{
+	width: 100%;
+	height: 100%;
+	border: 1px solid black;
+	border-radius: 10px;
+}
+
+.mangas{
+	width: 60%;
+	height: 100%;
+	transition: all .2s ease;
+	margin: auto;
+}
+.mangas:hover{
+	width: 70%;
+	height: 100%;
+}
+
+.mangas img{
+	width: 100%;
+	height: 100%;
+	border: 1px solid black;
+	border-radius: 10px;
+}
+
+.libros{
+	width: 60%;
+	height: 100%;
+	transition: all .2s ease;
+	margin: auto;
+}
+.libros:hover{
+	width: 70%;
+	height: 100%;
+}
+
+.libros img{
+	width: 100%;
+	height: 100%;
+	border: 1px solid black;
+	border-radius: 10px;
+}
+
+.programas{
+	width: 60%;
+	height: 100%;
+	transition: all .2s ease;
+	margin: auto;
+}
+.programas:hover{
+	width: 70%;
+	height: 100%;
+}
+
+.programas img{
+	width: 100%;
+	height: 100%;
+	border: 1px solid black;
+	border-radius: 10px;
+}
+
+
+
+/*PIE DE PAGINA*/
+
+.footer{
+	background-color: #c2c2c2;
+	text-align: center;
+	padding: 10px 0;
+	margin: auto;
+	border-radius: 15px;
+	border: 1px solid black;
+	width: 90%;
+}
+.boton{
+	border: 1px solid black;
+	width: 15%;
+	padding: 0 10px;
+	border-radius: 15px;
+	background-color: white;
+}
+.boton:hover{
+	background-color: gray;
+}
+.boton a{
+	text-decoration: none;
+	color: black;
+	font-size: 20px;
+	margin: auto;
+}
+.contenedor3{
+	margin: auto;
+	width: 90%;
+	text-align: center;
+	font-size: 60px;
+}
+.contenedor2{
+	width: 90%;
+	margin: auto;
+	padding-bottom: 20px;
+	border-radius: 15px;
+}
+.contenedor2 form{
+display: grid;
+grid-template-columns: 100%;
+}
+.contenedor2 h2{
+	text-align: center;
+	font-size: 40px;
+}
+}
